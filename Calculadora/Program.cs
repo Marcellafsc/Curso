@@ -24,10 +24,10 @@ namespace Calculadora
 			resultadoMultiplicacao = numeroEntrada1 * numeroEntrada2;
 			resultadoDivisao = numeroEntrada1 / numeroEntrada2;
 
-			Console.WriteLine("Resultado da soma: " + resultadoSoma);
-			Console.WriteLine("Resultado da subtração: " + resultadoSubtracao);
-			Console.WriteLine("Resultado da multiplicação: " + resultadoMultiplicacao);
-			Console.WriteLine("Resultado da divisão: " + resultadoDivisao);
+			Console.WriteLine($"Resultado da soma: {resultadoSoma}");
+			Console.WriteLine($"Resultado da subtração: {resultadoSubtracao}");
+			Console.WriteLine($"Resultado da multiplicação: {resultadoMultiplicacao}");
+			Console.WriteLine($"Resultado da divisão: {resultadoDivisao}");
 		}
 	}
 }
