@@ -20,7 +20,7 @@ namespace Prestacoes
 
 			resultado = valor / 5;
 
-			Console.WriteLine("O valor total a pagar é: " + resultado);
+			Console.WriteLine($"O valor total a pagar é: {resultado}");
 		}
 	}
 }
